@@ -69,6 +69,7 @@ export default {
 
   target: "static",
   ssr: 'false',
+  spa: 'true',
   generate: {
        fallback: true
   },
