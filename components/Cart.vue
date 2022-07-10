@@ -4,54 +4,54 @@
             <p> Страница обновляется, ибо роутер на бесплатном хостинге не работал</p>
      
         <div class="cart mt-5">
-             <nuxt-link to="/button" @click='reload'>
+             <a href="/button">
 <div class="cart__box">
                         <img src="~/assets/img/start.png" alt="">
                 <h5 class='mt-3'>Button</h5>
                <button class='btn btn-primary mt-2 mb-4'>Открыть</button> 
             </div>
-            </nuxt-link>
+            </a>
 
          
-          <nuxt-link to="/checkbox" @click='reload'>
+          <a href="/checkbox">
             <div class="cart__box">
                 <img src="~/assets/img/verified-checkbox-symbol.png" alt="">
                 <h5 class='mt-3'>Checkboxs</h5>
                 <button class='btn btn-primary mt-2 mb-4'>Открыть</button>
             </div>
-            </nuxt-link>
+            </a>
 
-<nuxt-link to="/select" @click='reload'>
+<a href="/select" >
             <div class="cart__box">
                         <img src="~/assets/img/choice.png" alt="">
                 <h5 class='mt-3'>Select</h5>
                 <button class='btn btn-primary mt-2 mb-4'>Открыть</button> 
             </div>
-            </nuxt-link>
+            </a>
 
-<nuxt-link to="/navbar" @click='reload'>
+<a href="/navbar">
             <div class="cart__box">
                         <img src="~/assets/img/menu.png" alt="">
                 <h5 class='mt-3'>Navbar</h5>
                 <button class='btn btn-primary mt-2 mb-4'>Navbar</button> 
             </div>
-            </nuxt-link>
+            </a>
             
-            <nuxt-link to="/toggle" @click='reload'>
+            <a href="/toggle">
                <div class="cart__box">
                 <img src="~/assets/img/switch.png" alt="">
                 <h5 class='mt-3'>Toggle Navbar</h5>
                 <button class='btn btn-primary mt-2 mb-4'>Открыть</button>
             </div>
-            </nuxt-link>
+            </a>
 
-<nuxt-link to="/vibration" @click='reload'> 
+<a href="/vibration"> 
                <div class="cart__box">
                 <img src="~/assets/img/premium-icon-vibration-5879451.png" alt="">
                 <h5 class='mt-3'>Vibration</h5>
             <button class='btn btn-primary mt-2 mb-4'>Открыть</button>
             </div>
-            </nuxt-link>
+            </a>
         
         </div>
         </div>
