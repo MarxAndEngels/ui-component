@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
   <div class="container">
-     <nuxt-link to="/">  <a class="navbar-brand" href="">Ui component</a> </nuxt-link>
+     <a class="navbar-brand" href="">Ui component</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
