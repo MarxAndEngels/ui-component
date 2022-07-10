@@ -8,27 +8,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-         <nuxt-link to="/">  Home </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/button">  Button </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/checkbox"> <a class="nav-link mt-1" aria-current="page"> Checkboxs</a> </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/select"> <a class="nav-link mt-1" aria-current="page"> Select</a> </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/navbar"> <a class="nav-link mt-1" aria-current="page"> Navbar</a> </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/toggle"> <a class="nav-link mt-1" aria-current="page"> Toggle Navbar</a> </nuxt-link>
-        </li>
-        <li class="nav-item">
-         <nuxt-link to="/vibration"> <a class="nav-link mt-1" aria-current="page"> Vibration</a> </nuxt-link>
-        </li>
       </ul>
 
       <!-- <form class="d-flex" role="search">
@@ -54,7 +33,5 @@ export default {
         color: rgb(163, 161, 161);
         text-decoration: none;
     }
-    .nuxt-link-exact-active a{
-      color: rgb(91, 167, 221);
-}
+
 </style>

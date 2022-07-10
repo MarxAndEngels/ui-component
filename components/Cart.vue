@@ -1,10 +1,10 @@
 <template lang="">
     <div>
          <div class="container">
-      
-      
+            <p> Страница обновляется, ибо роутер на бесплатном хостинге не работал</p>
+     
         <div class="cart mt-5">
-             <nuxt-link to="/button">
+             <nuxt-link to="/button" @click='reload'>
 <div class="cart__box">
                         <img src="~/assets/img/start.png" alt="">
                 <h5 class='mt-3'>Button</h5>
@@ -13,7 +13,7 @@
             </nuxt-link>
 
          
-          <nuxt-link to="/checkbox">
+          <nuxt-link to="/checkbox" @click='reload'>
             <div class="cart__box">
                 <img src="~/assets/img/verified-checkbox-symbol.png" alt="">
                 <h5 class='mt-3'>Checkboxs</h5>
@@ -21,7 +21,7 @@
             </div>
             </nuxt-link>
 
-<nuxt-link to="/select">
+<nuxt-link to="/select" @click='reload'>
             <div class="cart__box">
                         <img src="~/assets/img/choice.png" alt="">
                 <h5 class='mt-3'>Select</h5>
@@ -29,7 +29,7 @@
             </div>
             </nuxt-link>
 
-<nuxt-link to="/navbar">
+<nuxt-link to="/navbar" @click='reload'>
             <div class="cart__box">
                         <img src="~/assets/img/menu.png" alt="">
                 <h5 class='mt-3'>Navbar</h5>
@@ -37,7 +37,7 @@
             </div>
             </nuxt-link>
             
-            <nuxt-link to="/toggle">
+            <nuxt-link to="/toggle" @click='reload'>
                <div class="cart__box">
                 <img src="~/assets/img/switch.png" alt="">
                 <h5 class='mt-3'>Toggle Navbar</h5>
@@ -45,7 +45,7 @@
             </div>
             </nuxt-link>
 
-<nuxt-link to="/vibration"> 
+<nuxt-link to="/vibration" @click='reload'> 
                <div class="cart__box">
                 <img src="~/assets/img/premium-icon-vibration-5879451.png" alt="">
                 <h5 class='mt-3'>Vibration</h5>
@@ -59,7 +59,11 @@
 </template>
 <script>
 export default {
-    
+    methods:{
+        reload(){
+            window.location.reload();
+        }
+    }
 }
 </script>
 <style scoped>
