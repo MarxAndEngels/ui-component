@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
   <div class="container">
-     <nuxt-link to="/"> Ui component </nuxt-link>
+     <nuxt-link to="/">  <a class="navbar-brand" href="">Ui component</a> </nuxt-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,10 +15,10 @@
          <nuxt-link to="/button">  Button </nuxt-link>
         </li>
         <li class="nav-item">
-         <nuxt-link to="/checkbox"> Checkboxs </nuxt-link>
+         <nuxt-link to="/checkbox"> <a class="nav-link mt-1" aria-current="page"> Checkboxs</a> </nuxt-link>
         </li>
         <li class="nav-item">
-         <nuxt-link to="/select">  Select </nuxt-link>
+         <nuxt-link to="/select"> <a class="nav-link mt-1" aria-current="page"> Select</a> </nuxt-link>
         </li>
         <li class="nav-item">
          <nuxt-link to="/navbar"> <a class="nav-link mt-1" aria-current="page"> Navbar</a> </nuxt-link>
@@ -54,7 +54,7 @@ export default {
         color: rgb(163, 161, 161);
         text-decoration: none;
     }
-    /* .nuxt-link-exact-active a{
+    .nuxt-link-exact-active a{
       color: rgb(91, 167, 221);
-} */
+}
 </style>
