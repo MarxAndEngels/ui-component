@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-         <nuxt-link to="/"> <a class="nav-link mt-1" aria-current="page"> Home</a> </nuxt-link>
+         <nuxt-link to="/">  Home </nuxt-link>
         </li>
         <li class="nav-item">
-         <nuxt-link to="/button"> <a class="nav-link mt-1" aria-current="page"> Button</a> </nuxt-link>
+         <nuxt-link to="/button">  Button </nuxt-link>
         </li>
         <li class="nav-item">
-         <nuxt-link to="/checkbox"> <a class="nav-link mt-1" aria-current="page"> Checkboxs</a> </nuxt-link>
+         <nuxt-link to="/checkbox"> Checkboxs </nuxt-link>
         </li>
         <li class="nav-item">
          <nuxt-link to="/select"> <a class="nav-link mt-1" aria-current="page"> Select</a> </nuxt-link>
@@ -30,6 +30,7 @@
          <nuxt-link to="/vibration"> <a class="nav-link mt-1" aria-current="page"> Vibration</a> </nuxt-link>
         </li>
       </ul>
+
       <!-- <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>

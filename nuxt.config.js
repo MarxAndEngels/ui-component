@@ -1,10 +1,5 @@
 export default {
 
-  target: "static",
-  ssr: 'false',
-  generate: {
-       fallback: true
-  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'ui',
@@ -70,5 +65,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  target: "static",
+  ssr: 'false',
+  generate: {
+       fallback: true
+  },
 }
