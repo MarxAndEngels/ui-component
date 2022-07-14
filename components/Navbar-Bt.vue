@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
   <div class="container">
-      <a href='/' class="navbar-brand" href="">Ui component</a> 
+      <a href='/' class="navbar-brand">Ui component</a> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,6 +13,9 @@
         </li>
         <li class="nav-item">
           <a href='/button' class="nav-link mt-1" aria-current="page"> Button</a> 
+        </li>
+        <li class="nav-item">
+          <a href='/input' class="nav-link mt-1" aria-current="page"> Input</a> 
         </li>
         <li class="nav-item">
          <a  href='/checkbox' class="nav-link mt-1" aria-current="page"> Checkboxs</a>

@@ -12,6 +12,14 @@
             </div>
             </a>
 
+             <a href="/input">
+<div class="cart__box">
+                        <img src="~/assets/img/text.png" alt="">
+                <h5 class='mt-3'>Input</h5>
+               <button class='btn btn-primary mt-2 mb-4'>Открыть</button> 
+            </div>
+            </a>
+
          
           <a href="/checkbox">
             <div class="cart__box">

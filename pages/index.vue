@@ -2,7 +2,6 @@
   <div>
    
     <Cart/>
-   
   </div>
 </template>
 

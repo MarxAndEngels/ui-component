@@ -22,7 +22,6 @@
                      <Checkbox3/>  
             </center>
          </div>
-      <input type="checkbox">
     </div>
 </template>
 <script>
