@@ -20,6 +20,24 @@
             </div>
             </a>
 
+
+             <a href="/menu">
+<div class="cart__box">
+                        <img src="~/assets/img/menu1.png" alt="">
+                <h5 class='mt-3'>Menu</h5>
+               <button class='btn btn-primary mt-2 mb-4'>Открыть</button> 
+            </div>
+            </a>
+
+
+             <a href="/grid">
+<div class="cart__box">
+                        <img src="~/assets/img/grid.png" alt="">
+                <h5 class='mt-3'>Grid</h5>
+               <button class='btn btn-primary mt-2 mb-4'>Открыть</button> 
+            </div>
+            </a>
+
          
           <a href="/checkbox">
             <div class="cart__box">

@@ -3,10 +3,10 @@
         
           <br>
           <br>
-          <Navbar/>
+          <Navbar-nv/>
           <br>
           <br>
-          <Navbar1/>
+          <Navbar-nv1/>
     </div>
 </template>
 <script>

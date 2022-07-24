@@ -11,7 +11,7 @@
         <li class="nav-item">
           <a href='/' class="nav-link mt-1" aria-current="page"> Home</a> 
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href='/button' class="nav-link mt-1" aria-current="page"> Button</a> 
         </li>
         <li class="nav-item">
@@ -31,7 +31,7 @@
         </li>
         <li class="nav-item">
           <a href='/vibration' class="nav-link mt-1" aria-current="page"> Vibration</a>
-        </li>
+        </li> -->
       </ul>
       
       <!-- <form class="d-flex" role="search">

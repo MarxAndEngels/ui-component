@@ -2,7 +2,7 @@
     <div class='mt-5'>
         <div>
             <center>
-                     <Checkbox1/>  
+                     <checkbox-ch1/>
             </center>
          </div>
        <br>
@@ -10,7 +10,7 @@
 
         <div>
             <center>
-                     <Checkbox2/>  
+                             <checkbox-ch2/>
             </center>
          </div>
 
@@ -19,7 +19,7 @@
 
         <div>
             <center>
-                     <Checkbox3/>  
+                         <checkbox-ch3/>
             </center>
          </div>
     </div>
